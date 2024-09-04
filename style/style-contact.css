@@ -1,0 +1,198 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.blue-a{
+    text-decoration: none;
+    color: rgba(24, 160, 251, 1);;
+}
+.white-a{
+    text-decoration: none;
+    color: white;
+}
+#frame-1{
+    
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 0 1em;
+    overflow: hidden;
+}
+#logo-and-navbar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(228, 234, 236);
+    padding: 10px 0;
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo img {
+    position: relative;
+    left: 80px;
+}
+
+.links {
+    position: relative;
+    right: 0px;
+    top: 25px;
+}
+#logo-and-navbar .links ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+   
+}
+
+#logo-and-navbar .links ul li{
+    display: inline;
+    padding: 10px 8px;
+    margin: 15px 8px;
+
+}
+
+#logo-and-navbar .links ul li a {
+    color: rgba(67, 64, 148, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.29px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#logo-and-navbar .links ul li a:hover {
+    border-bottom: 3px solid rgba(67, 64, 148, 1);
+    margin-top: 5px;
+    letter-spacing: 5px;
+    
+}
+.navbar-btn-div{
+    display: flex;
+    flex-direction: row;
+    margin: 0 5em 0 0em;
+  
+}
+.navbar-btn-login, .navbar-btn-register{
+   
+    margin: 1em;
+    
+}
+.btn-login,.btn-register{
+  
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    padding:0.5 1em ;
+}
+.btn-register{
+    border: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgba(24, 160, 251, 1);
+    color:white;
+}
+.btn-login{
+    border: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgb(240, 244, 246);
+    color: rgba(24, 160, 251, 1);
+}
+#frame{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 0 1em;
+    overflow: hidden;
+}
+
+#contact{
+    margin: 1em;
+}
+.contact-flex{
+    display: flex;
+    margin: 2em 1em 2em 8em;
+
+}
+h3{
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    word-wrap: normal;
+    line-height: 30px;
+    max-width: 750px;
+    padding: 0.5em 0.5em 0.5em 0;
+   
+}
+
+.col1{
+    max-width: 600px;
+    padding: 1em;
+    background-color: rgb(39, 107, 153);
+    margin: 2em 0em 2em 10em;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.col2{
+    max-width: 500px;
+    margin: 1em 0em 1em 0em;
+    padding: 2.6em 1em 1em 1em;
+    border-radius: 10px;
+    box-shadow: 4px 0px 4px 4px rgba(16, 11, 11, 0.2);
+}
+   
+
+input{
+    height: 30px;
+}
+.lname, .fname{
+    width: 45%;
+}
+.lname{
+    margin-left: 2.3em;
+}
+.email, .subject{
+    width: 100%;
+}
+.btn{
+  
+    border: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgb(228, 236, 241);
+    color: rgba(24, 160, 251, 1);;
+    padding: 8px 8px;
+    margin: 0.5em;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+.contact-content{
+    max-width: 350px;
+    padding-bottom: 0.5em;
+
+}
+.contact-content h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;  
+   
+}
+.contact-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+   
+}
+.contact-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0.5px solid grey;
+    padding-top: 3px;
+}
+.contact-p{
+    padding-left: 3em;
+    
+}

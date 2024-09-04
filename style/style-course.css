@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.blue-a{
+    text-decoration: none;
+    color: rgba(24, 160, 251, 1);;
+}
+.white-a{
+    text-decoration: none;
+    color: white;
+}
+#frame-1{
+    
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 0 1em;
+    overflow: hidden;
+}
+
+#frame-2{
+    /*max-width: 104em;*/
+    padding: 0.5em;
+    margin: 0 auto;
+
+    /*border: 3px solid red;*/
+}
+#logo-and-navbar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(228, 234, 236);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo img {
+    position: relative;
+    left: 80px;
+}
+
+.links {
+    position: relative;
+    right: 0px;
+    top: 25px;
+}
+#logo-and-navbar .links ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+   
+}
+
+#logo-and-navbar .links ul li{
+    display: inline;
+    padding: 10px 8px;
+    margin: 15px 8px;
+
+}
+
+#logo-and-navbar .links ul li a {
+    color: rgba(67, 64, 148, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.29px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#logo-and-navbar .links ul li a:hover {
+    border-bottom: 3px solid rgba(67, 64, 148, 1);
+    margin-top: 5px;
+    letter-spacing: 5px;
+    
+}
+.navbar-btn-div{
+    display: flex;
+    flex-direction: row;
+    margin: 0 5em 0 0em;
+  
+}
+.navbar-btn-login, .navbar-btn-register{
+   
+    margin: 1em;
+    
+}
+.btn-login,.btn-register{
+  
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    padding:0.5 1em ;
+}
+.btn-register{
+    border: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgba(24, 160, 251, 1);
+    color:white;
+}
+.btn-login{
+    border: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgb(240, 244, 246);
+    color: rgba(24, 160, 251, 1);
+}
+
+.course-div{
+padding: 0.1em 3em;
+}
+.course-content{
+    
+    margin: 1em 200px;
+    padding: 16em 1.5em;
+
+    border: 3px solid yellow;
+}
+.course-content-inner{
+    max-height: 600px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 0.5em 1em;
+
+    border: 3px solid gold;
+}
+.course-content-h1{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    text-align: center;
+}
+.course-content-p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+}
+
+.find-course-div1{
+    margin:1em ;
+
+    /*border: 3px solid blue;*/
+}
+.tble{
+   
+    
+    border: 3px solid grey;/*important*/
+}
+.find-course-content, .find-course-table{
+    padding: 0.5em;
+    margin: 1.5em 18em;
+   
+    /*border: 3px solid yellow;*/
+}
+.btn-search{
+    border: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgba(24, 160, 251, 1);
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    padding:0.5 1em ;
+}
+.find-course-content{
+    text-align: center;
+}
+
+
+table{
+    margin: 0.2em;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 1em 3em;
+}
+.find-course-btn{
+    margin: 0em 36em;
+}
+.register-btn{
+    margin:2em 1em;
+}
+
+.pop-course-div{
+    margin:1em ;
+
+    /*border: 3px solid blue;*/
+}
+.pop-course-content{
+    padding: 0.5em;
+    margin: 1.5em 18em;
+    text-align: center;
+   
+    /*border: 3px solid yellow;*/
+}
+.container-card{
+    margin:1em ;
+
+    /*border: 3px solid blue;*/
+
+}
+.row-cards{
+    
+   display: flex;
+   flex-direction: row;
+   margin: 1em 1.5em;
+   padding: 1em 3em 1em 3em;
+   /*border: 3px solid green;*/
+   
+}
+.card-1, .card-2, .card-3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: left;
+    padding: 0.2em;
+    /*border: 3px solid yellow;*/
+}
+.card-1{
+   margin: 1.5em 4em 1.5em 5em;
+   
+}
+.card-2{
+    margin: 1.5em 4em;
+}
+.card-3{
+margin:1.5em 2.5em 1.5em 4em;
+}
+.card-content{
+    max-width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2em;
+    font-weight: 200;
+    font-size: 10px; 
+    padding: 1em;
+    margin: 1em;
+
+}
+.card-h3{
+    font-size: 14px;
+   padding:0.5 1em ;
+}
+.card-p{
+    color:grey;
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 1em 1em 1em 0em;
+}
+
+
+.register-btn,.btn-card{
+    border: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgba(24, 160, 251, 1);
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    padding:0.5 1em ;
+}
+.row-discover{
+    
+    display: flex;
+    flex-direction: row;
+    margin: 2em 1em;
+    padding: 0.2em 2em 0.2em 4em ;
+    /*border: 3px solid blue;*/
+    
+}
+
+.col1-discover, .col2-discover, .col3-discover{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    
+
+    /*border: 3px solid yellow;*/
+
+}
+.col1-discover{
+    margin-left: 4em;
+    padding: 0.5em 2em;
+}
+.col2-discover{
+   
+    margin-left: 3em;
+    padding: 1.5em 2em;
+}
+.col3-discover{
+  
+    margin-right: 1.5em;
+    padding: 1.5em 2em;
+}
+.content-discover{
+    max-width: 500px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18.5px;
+    word-wrap: break-word;
+    line-height: 30px;
+   
+    text-align: left;
+}
+.btn1-discover{
+    border: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgba(24, 160, 251, 1);
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    padding:0.5 1em ;
+}
+.btn2-discover{
+    border: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgb(239, 242, 243);
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    padding:0.5 1em ;
+}
+

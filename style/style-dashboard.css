@@ -1,0 +1,373 @@
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#frame{
+    
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 0 1em;
+    overflow: hidden;
+  
+}
+
+#head-img{
+    margin:0.2em 0.2em 0 0.2em;
+}
+.head-row{
+    display: flex;
+    background: rgb(237, 241, 241);
+}
+.col1{
+    background: rgb(126, 169, 233);
+    position: relative;
+    width: 15%;
+    padding-left:20px;
+    text-align: center;
+
+}
+.col1 table tr td{
+   text-align: center;
+   padding: 3px 3px 3px 25px;
+   
+}
+.col1 table tr td p{
+    text-align: center;
+    margin: 0 0 4px 0;
+    
+ }
+.col1 table tr td img{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.col1 table tr td .td-name{
+    font-size: 14px;
+    padding: 0;
+}
+.homeName{
+ position: relative;
+}
+.name-content{
+    text-align: center;
+    padding: 0 0 3px 22em;  
+}
+.name-content h2{
+    font-size: 30px;
+    bottom: 0;
+    font-weight: bold;
+    padding-top: 1.5em;
+}
+
+
+#frame-tabs{
+    margin:0em 0.2em 0.2em 0.2em; 
+}
+
+.tab-col{
+    display: flex;
+    background: rgb(226, 241, 241);
+  
+}
+.flex-item1{
+    background: rgb(126, 169, 233);
+    position: relative;
+    width: 15%;
+}
+.flex-item1 ul li{
+    
+    padding: 5px;
+    list-style-type:none;
+}
+
+
+a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    background: #fff;
+    font-size: 14px;
+    display: table;
+    width: 185px;
+    margin-left: 15px;
+    padding: 3px 3px 3px 6px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+a:hover{
+    position: relative;
+    color: rgb(85, 83, 83);
+    background: #fff;
+    box-shadow: rgb(85, 83, 83, 0.2);
+    font-size: 14.2px;
+    display: table;
+    width: 185px;
+    margin-left: 15px;
+    padding: 3px 3px 3px 5px;
+    font-weight: bold;
+    text-decoration:none;
+    text-transform:capitalize;
+    border-radius: 10px;
+}
+.logout{
+    position: relative;
+    bottom: 0;
+    margin-top:260px ;
+}
+.logout:hover{
+    position: relative;
+    bottom: 2px; 
+    margin-top:260px ;  
+    font-size: 14.2px;
+}
+
+nav img{
+   margin: 5px 12px 0 0;
+   bottom: 5px;
+}
+
+
+
+.col2{
+    /*padding: 2em;*/
+    position: relative;
+    background: rgb(212, 220, 231);
+    width: 85%;
+}
+.tabs-page{
+    display: flex;
+    background:#fff;
+    padding: 30px 20px 10px 20px ;
+    border-radius: 10px;
+}
+
+
+.homeDash{
+background: rgba(149, 193, 238, 0.2);
+display: flex;
+padding:10px;
+border-radius: 40px;
+
+
+}
+
+#Dashboard{
+position: relative;
+padding: 2em;
+border: 1px solid green;
+}
+
+.homeDash .dashboard-card1{
+width:19.38em;
+position: relative;
+border-radius: 30px;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.4) ;
+background: rgb(207, 227, 247);
+padding: 10px;
+
+
+}
+.homeDash .dashboard-card1 h3
+{
+    padding: 5px;
+    text-decoration: cornflowerblue;
+    color: rgb(141, 159, 185);
+    font-size: 25px;
+    font-weight: 3px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.homeDash .dashboard-card1 p{
+    padding: 3px;
+    color: rgb(71, 65, 64);
+    font-size:18px;
+    text-align: left;
+    font-weight: 2px;
+
+}
+.homeDash .dashboard-card1 p:hover{
+    padding: 2px;
+    color: rgb(71, 65, 64);
+    font-size:19px;
+    text-align: left;
+    font-weight: 2px;
+
+}
+
+
+.tabs2{
+margin-top: 2em;
+
+}
+.contentD2 h4{
+    font-size: 14px;
+    text-align: center;
+    padding: 2px 0 6px 0;
+    color: cornflowerblue;
+}
+.dashboard-card1 img{
+    width: 150px;
+    height: 100px;
+}
+.contentD2 td{
+    padding: 2px;
+}
+.contentD2 td p{
+    padding: 2px;
+    text-align: center;
+}
+
+/* CARD FOR COURSE TAB*/
+#Courses{
+    position: relative;
+    padding: 2em;
+}
+.courses-flex{
+    display:flex;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    text-align: left;
+    padding: 1px;
+    margin-left: 60px;
+    margin-top: 1em;
+    text-align: center;
+    background: rgb(237, 238, 240);
+    border-radius: 10px;
+    border: 3px solid yellow;
+}
+.card img{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+.card .card-content{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1em;
+    font-weight: 200;
+    font-size: 10px; 
+    padding: 0 1em 0 1em;
+     margin: 0 0.3em 0 0.3em;
+    background: rgb(237, 238, 240);
+
+}
+
+.card h3{
+    color:grey;
+    font-size: 14px;
+   padding:0.5em 0.5em ;
+   text-transform: capitalize;
+
+}
+.card .card-p{
+    color:grey;
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 1em 1em 1em 0em;
+}
+.card .btn-card{
+    border: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgba(24, 160, 251, 1);
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    padding:0.5em 1em ;
+    margin:15px 0 13px 0;
+    font-weight:bold ;
+    color:#fff;
+}
+.flex2{
+    position:relative;
+    margin-top: 90px;
+    /*padding-left:30px;*/
+}
+.flex-tabs{
+    
+    background-color: azure;
+}
+.flex-tabs h3{
+    padding: 0 0 10px 30px;
+}
+.inprogress{
+    display: flex;
+    height: 12em;
+    width:69em ;
+    padding-left:1em;
+}
+.inprogress-h3{
+    background: rgb(179, 215, 245);
+}
+.tab-course{
+    max-width: 400px;
+    display: flex;
+  height:9em ;  
+  margin: 1.5em 0.3em 1em 0.4em;
+  padding: 2em 0.5em 1em 0.5em;
+  border-radius: 30px;
+  background: #c4c1c2;
+  box-shadow: 0 4px 8px 0 rgba(180, 195, 202, 0.685);
+ /* border: 1px solid red;*/
+
+}
+
+.tab-course .card-content{
+    display: flex;
+    flex-direction: column;  
+    width: 200px;
+    text-align: center;
+  /* border: 1px solid green;*/
+}
+.tab-course .card-content .card-h3{
+    margin: 0.4em 0em 0.4em 0em;
+    padding-right: 1.2em;
+    font-size: 14px;
+    /*border:1px solid gold;*/
+   
+}
+.tab-course .card-content .btn-tabcourse{
+    border: 0px solid white;
+    border-radius: 5px;
+    margin-top: 0.3em;
+    margin-left: 3.5em;
+    max-width: 8em;
+    height: 2em;
+    margin-right: 0.5em;
+    background-color: cadetblue;
+    color: #fff;
+    /*border: 1px solid violet;*/
+}
+.tab-course .imgDiv{
+    max-width: 200px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid blue;  */
+}
+.tab-course img{
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+}
+#Schedule{
+/*background: rgb(230, 207, 207);*/
+padding: 2em;
+width: 100%;
+height: 100%;
+}
+
+#Payment{
+    position: relative;
+    padding: 2em;
+}
+
+
+
+
+
